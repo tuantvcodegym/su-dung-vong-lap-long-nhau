@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vong lap lonh nhau</title>
+</head>
+<body>
+    <script>
+        var a;
+        a = "<table border='1px'>";
+        for(i = 1; i <= 10; i++){
+            a = a + "<tr>";
+            for(j =1; j <= 10; j++){
+                a = a + "<td>" + j*i + "</td>";
+            }
+            a = a + "</tr>";
+        }
+        a = a + "</table>"
+        document.write(a);
+    </script>
+</body>
+</html>
